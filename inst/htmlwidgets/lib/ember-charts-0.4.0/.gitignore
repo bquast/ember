@@ -1,0 +1,9 @@
+build/
+gh_pages/
+node_modules/
+vendor/
+.idea/
+.DS_Store
+.stage
+*.swo
+*.swp
