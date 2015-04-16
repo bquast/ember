@@ -5,19 +5,29 @@
 #' @import htmlwidgets
 #'
 #' @export
-ember <- function(message, width = NULL, height = NULL) {
+ember <- function(json, width = NULL, height = NULL) {
 
-  # forward options using x
-  x = list(
-    message = message
+  # read the data file
+  data <- paste(readLines(json), collapse = "\n" )
+
+  # forward options using settings
+  settings = list(
+    width = width,
+    height = height
+  )
+
+  # pass the data and settings using 'x'
+  x <- list(
+    data = data,
+    settings = settings
   )
 
   # create widget
   htmlwidgets::createWidget(
-    name = 'ember',
-    x,
-    width = width,
-    height = height,
+    name    = 'ember',
+    x       = x,
+    width   = width,
+    height  = height,
     package = 'ember'
   )
 }
