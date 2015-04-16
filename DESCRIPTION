@@ -4,7 +4,7 @@ Title: An R wrapper for the Ember Charts library, using htmlwidgets
 Version: 0.0.1
 Date: 2015-04-15
 Author: Bastiaan Quast
-Maintainer: bquast@gmail.com
+Maintainer: Bastiaan Quast <bquast@gmail.com>
 Description: Interface to Ember Charts javascript library
 License: GPL-3 + file LICENSE
 Imports:
