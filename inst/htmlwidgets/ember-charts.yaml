@@ -1,6 +1,0 @@
-dependencies:
-  - name: ember-charts
-    version: 0.4.0
-    src: htmlwidgets/lib/ember-charts-0.4.0
-    script:
-      -
