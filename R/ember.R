@@ -1,9 +1,5 @@
-#' <Add Title>
-#'
-#' <Add Description>
-#'
+#' ember
 #' @import htmlwidgets
-#'
 #' @export
 ember <- function(json, width = NULL, height = NULL) {
 
